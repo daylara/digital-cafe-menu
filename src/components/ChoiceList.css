@@ -1,0 +1,52 @@
+.choice-list {
+  position: absolute;
+  top: 5rem; /* navbar'ın yüksekliğini buraya girebilirsiniz */
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding-top: 0rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  margin: 0 auto;
+  background:#1d1e1e;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align:left;
+  width: 100%;
+}
+.choice-image {
+  width: 100%;
+  height: auto;
+  max-height: 300px;
+  border: 2px solid #060606;
+  border-radius: 30px;
+  object-fit: cover; /* This makes sure the image fills the container without exceeding its boundaries */
+}
+.choice-list h2 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: #f98b8b;
+}
+
+.choice-list ul {
+  list-style: none;
+  padding: 0;
+  display: inline-block;
+}
+
+.choice-list li {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.choice-list li:hover {
+  transform: translateY(-5px);
+}
+
+.choice-list .price {
+  float: right;
+}

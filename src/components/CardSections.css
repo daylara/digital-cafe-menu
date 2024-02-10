@@ -1,0 +1,11 @@
+.card-container {
+  text-align: center; /* Kartları ortala */
+  margin-bottom: 100px !important; 
+  margin: auto;/* Kartlar bittikten sonra 50 piksel boşluk bırak */
+  top:80px;
+}
+.card-section-name{
+  color:aliceblue;
+  text-align: left;
+  padding-left: 80px;
+}

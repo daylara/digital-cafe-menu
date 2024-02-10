@@ -1,0 +1,62 @@
+.card {
+  position: relative; /* Göreceli konumlandırma */
+  width: 250px; /* Kartın genişliği */
+  height: 300px; /* Kartın yüksekliği */
+  margin: 10px; /* Boşluk ayarı */
+  border: 2px solid #0f0f0f; /* Kart sınırı */
+  border-radius: 18px; /* Kare şeklinde köşeler */
+  overflow: hidden; /* İçerik dışında kalanları gizle */
+  display: inline-block;
+  background-color: #141718;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card img {
+  width: 100%; /* Resmi kartın genişliği kadar ayarla */
+  height: 70%; /* Resmi kartın yüksekliği kadar ayarla */
+  object-fit: cover; /* Resmi kartın boyutuna göre yerleştir */
+  position: absolute; /* Mutlak konumlandırma */
+  top: 0; /* Üst kenara yapıştır */
+  left: 0;
+  right:0;
+  border: 4px solid #141718; /* Kart sınırı */
+  border-radius: 18px;/* Sol kenara yapıştır */
+  filter: brightness(75%);
+}
+.card:hover {
+  filter: brightness(80%);
+  transform: translateY(-5px);
+}
+img {
+  transition: transform 0.2s ease-in-out;
+}
+
+img:hover {
+  transform: translateY(-5px);
+}
+
+.card-content {
+  position: absolute; /* Mutlak konumlandırma */
+  bottom: 0; /* Alt kenara yapıştır */
+  left: 0; /* Sol kenara yapıştır */
+  padding: 10px; /* İçerik dolgusu */
+  background-color: #17191a;/* Arka plan rengi ve opaklık */
+  width: 100%; /* Genişlik ayarı */
+  box-sizing: border-box; /* Kutu modeli */
+}
+
+.card-content h3 {
+  color:#f8f5f5;
+  margin-top: 0; /* Başlık üst boşluğu */
+  justify-content: center;
+}
+
+.card-content p {
+  color:#f8f5f5;
+  margin-bottom: 0; /* Paragraf alt boşluğu */
+}
+
+.card-content a {
+  text-decoration: none; /* Bağlantı altı çizgiyi kaldır */
+  color: rgb(221, 221, 235); /* Bağlantı rengi */
+}

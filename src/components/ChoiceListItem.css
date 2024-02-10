@@ -1,0 +1,46 @@
+.choice-list-item {
+  display: flex;
+  flex-direction: row;
+  height: 70px;
+  margin-bottom: 1rem;
+  padding: 0.3rem;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+  align-items: center;
+  overflow: hidden;
+}
+
+.photo {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+}
+
+.item-name {
+  text-align: left;
+  width: calc(100% - 60px - 10px);
+}
+
+.item-description {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.item-name .price {
+  margin-top: 0.5rem;
+}
+
+@media (max-width: 767px) {
+  .item-description {
+    flex-direction: column;
+  }
+
+  .item-name .price {
+    margin-top: 0.5rem;
+  }
+}

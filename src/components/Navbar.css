@@ -1,0 +1,44 @@
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.image {
+  width: 70px; /* Özel bir genişlik ayarla */
+  height: auto; /* Otomatik yükseklik */
+  margin-right: 10px; /* Logo ile metin arasındaki boşluğu ayarla */
+}
+
+.logo-text {
+  display: flex;
+  flex-direction: column;
+}
+.icons{
+  font-size: 1.2rem;
+}
+
+.logo-text h1 {
+  font-size: 1.5rem; /* Başlık font boyutu */
+  margin: 0; /* Sıfır dış boşluk */
+}
+
+.logo-text p {
+  font-size: 0.8rem; /* Açıklama font boyutu */
+  color: #666; /* Gri renk */
+  margin: 0; /* Sıfır dış boşluk */
+}
+
+.navbar-fixed {
+  position: absolute;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+}
+.navbar {
+  padding: 0.5rem 1rem;
+  height: 55px;
+}
+
+.navbar-brand {
+  padding: 0;
+}

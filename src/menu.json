@@ -1,0 +1,39 @@
+{
+  "sections": {
+    "tostlar": {
+      "choices": [
+        {
+          "name": "Sucuklu Tost",
+          "ingredients": ["Sucuk", "Kaşar Peyniri", "Domates", "Biber"],
+          "price": 15.99
+        },
+        {
+          "name": "Tavuklu Tost",
+          "ingredients": ["Tavuk Göğsü", "Kaşar Peyniri", "Maydanoz", "Marul"],
+          "price": 14.99
+        },
+        {
+          "name": "Vejetaryen Tost",
+          "ingredients": ["Mantar", "Domates", "Kaşar Peyniri", "Maydanoz"],
+          "price": 12.99
+        }
+      ]
+    },
+    "icecekler": {
+      "choices": [
+        {
+          "name": "Limonata",
+          "price": 7.99
+        },
+        {
+          "name": "Soğuk Çay",
+          "price": 6.99
+        },
+        {
+          "name": "Portakal Suyu",
+          "price": 8.99
+        }
+      ]
+    }
+  }
+}
